@@ -85,7 +85,7 @@ const SignUpPage = () => {
               class="feature__image"
             />
             <div class="feature__backgroud__video__container">
-              <video autoplay playsInline loop muted
+              <video autoPlay loop muted
                 class="feature__backgroud__video"
               >
                 <source
@@ -154,10 +154,7 @@ const SignUpPage = () => {
                 feature__3__backgroud__video__container
               "
             >
-              <video
-                autoplay=""
-                loop=""
-                muted=""
+              <video autoPlay loop muted
                 class="feature__3__backgroud__video"
               >
                 <source
@@ -731,38 +728,7 @@ const Container = styled.div`
   }
   
   
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  /*
   
   
   
