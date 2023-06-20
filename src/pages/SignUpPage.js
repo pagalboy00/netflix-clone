@@ -81,7 +81,7 @@ const SignUpPage = () => {
            <div class="feature__image__container">
             <img
               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
-              alt="Feature image"
+              alt="Fea"
               class="feature__image"
             />
             <div class="feature__backgroud__video__container">
@@ -109,7 +109,7 @@ const SignUpPage = () => {
           <div class="feature__image__container1">
             <img
               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
-              alt="Feature image"
+              alt="Fea"
               class="feature__image1"
             />
             <div class="feature__2__poster__container">
@@ -146,7 +146,7 @@ const SignUpPage = () => {
           <div class="feature__3__image__container">
             <img
               src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"
-              alt="Feature image"
+              alt="Fea"
               class="feature__imagefeature__3__image"
             />
             <div
@@ -177,7 +177,7 @@ const SignUpPage = () => {
           <div class="feature__image__container3">
             <img
               src="https://occ-0-4023-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf"
-              alt="Feature image"
+              alt="Fea"
               class="feature__image3"
             />
           </div>
@@ -187,7 +187,7 @@ const SignUpPage = () => {
         <div class="FAQ__list">
           <div class="FAQ__accordian">
             <button class="FAQ__title">
-              What is Netflix?<i class="fal fa-plus"></i>
+              What is Netflix?<i class="fa fa-plus" aria-hidden="true"></i>
             </button>
             <div class="FAQ__visible">
               <p>
@@ -205,7 +205,7 @@ const SignUpPage = () => {
           </div>
           <div class="FAQ__accordian">
             <button class="FAQ__title">
-              How much does netflix cost?<i class="fal fa-plus"></i>
+              How much does netflix cost?<i class="fa fa-plus" aria-hidden="true"></i>
             </button>
             <div class="FAQ__visible">
               <p>
@@ -217,7 +217,7 @@ const SignUpPage = () => {
           </div>
           <div class="FAQ__accordian">
             <button class="FAQ__title">
-              Where can i watch?<i class="fal fa-plus"></i>
+              Where can i watch?<i class="fa fa-plus" aria-hidden="true"></i>
             </button>
             <div class="FAQ__visible">
               <p>
@@ -238,7 +238,7 @@ const SignUpPage = () => {
           </div>
           <div class="FAQ__accordian">
             <button class="FAQ__title">
-              How do I cancel?<i class="fal fa-plus"></i>
+              How do I cancel?<i class="fa fa-plus" aria-hidden="true"></i>
             </button>
             <div class="FAQ__visible">
               <p>
@@ -248,7 +248,7 @@ const SignUpPage = () => {
           </div>
           <div class="FAQ__accordian">
             <button class="FAQ__title">
-              What can I watch from Netflix?<i class="fal fa-plus"></i>
+              What can I watch from Netflix?<i class="fa fa-plus" aria-hidden="true"></i>
             </button>
             <div class="FAQ__visible">
               <p>
@@ -258,7 +258,7 @@ const SignUpPage = () => {
           </div>
           <div class="FAQ__accordian">
             <button class="FAQ__title">
-              Is Netflix good for kids?<i class="fal fa-plus"></i>
+              Is Netflix good for kids?<i class="fa fa-plus" aria-hidden="true"></i>
             </button>
             <div class="FAQ__visible">
               <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.</p>
@@ -330,7 +330,7 @@ const SignUpPage = () => {
       </div>
       <div class="footer__row__3">
         <div class="dropdown__container">
-          <i class="fas fa-globe"></i>
+         <i class="fa fa-globe" aria-hidden="true" id="gll"></i>
           <select
                 name="languages"
                 id="languagesSelect"
@@ -457,7 +457,7 @@ const Container = styled.div`
        margin-left: 53%;
        margin-top: -7rem;
        position: absolute;
-       top: 21.7%;
+       top: 19%;
       .feature__image {
          width: 100%;
          }
@@ -485,7 +485,7 @@ const Container = styled.div`
        width: 35%;
        margin-left: 10%;
        position:absolute;
-       top: 33.1%;
+       top: 30%;
       .feature__image1 {
          width: 100%;
          }
@@ -570,7 +570,7 @@ const Container = styled.div`
        margin-left: 53%;
        margin-top: -7rem;
        position: absolute;
-       top: 51.4%;
+       top: 47%;
       .feature__imagefeature__3__image {
          width: 100%;
          }
@@ -598,52 +598,10 @@ const Container = styled.div`
        width: 35%;
        margin-left: 10%;
        position:absolute;
-       top: 60%;
+       top: 55%;
       .feature__image3 {
          width: 100%;
          }
-      /* .feature__2__poster__container {
-         position: absolute;
-         bottom: 8%;
-         right: -5%;
-         transform: translateX(-50%);
-         width: 100%;
-         max-width: 16em;
-         display: flex;
-         align-items: center;
-         background-color: black;
-         border: 2px solid rgba(255, 255, 255, 0.25);
-         border-radius: 10px;
-         height: 60px;
-         padding: 0.25rem 0.6rem;
-         gap: 15px; */
-         /* .poster__container {
-            width: 20%;
-            .poster {
-              width: 100%;
-              height: 100%;
-            }
-          } */
-          /* .poster__details {
-            width: 60%;
-            .poster__details > h4 {
-               font-size: 13px;
-               font-weight: 500;
-            }
-            .poster__details > h6 {
-              font-size: 12px;
-              font-weight: 400;
-              color: rgb(63, 63, 246);
-            }
-          } */
-          /* .download__gif__container {
-              width: 20%;
-              height: 100%;
-              .gif {
-                 width: 100%;
-                 height: 100%;
-              }
-          } */
       }
   }
   .FAQ__list__container {
@@ -658,20 +616,21 @@ const Container = styled.div`
     }
     .FAQ__list {
     display: flex;
-    padding: 3rem;
+    padding: 5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     .FAQ__accordian {
     width: 80%;
-    border: 1px solid #303030;
+    /* border: 1px solid #303030; */
     .FAQ__title {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 15px 20px;
-    font-size: 18px;
+    font-weight: bolder;
+    padding: 30px 20px;
+    font-size: 20px;
     background-color: #303030;
     border: 1px solid #303030;
     color: white;
@@ -728,184 +687,15 @@ const Container = styled.div`
   }
   
   
-  /*
+
   
   
   
   
-  @media (min-width: 768px) {
-    .hero__bg__image__container {
-      height: 100vh;
-    }
   
-    .hero__bg__overlay {
-      height: 100vh;
-    }
-    .hero__card {
-      top: 40%;
-      left: 30%;
-      transform: translate(-20%, -20%);
-    }
-    .hero__title {
-      font-size: 3rem;
-    }
-    .hero__subtitle,
-    .hero__description {
-      font-size: 1.3rem;
-    }
   
-    .feature {
-      padding: 4rem;
-    }
   
-    .feature__title {
-      font-size: 35px;
-    }
   
-    .feature__sub__title {
-      font-size: 20px;
-    }
-    .feature__2__poster__container {
-      max-width: 26em;
-      height: 85px;
-    }
-    .poster__container {
-      width: 15%;
-    }
-    .download__gif__container {
-      width: 3rem;
-      height: 3rem;
-    }
-  
-    .poster__details > h4 {
-      font-size: 18px;
-    }
-    .poster__details > h6 {
-      font-size: 14px;
-    }
-    .FAQ__title {
-      font-size: 20px;
-    }
-    .FAQ__heading {
-      font-size: 38px;
-      font-weight: 500;
-      letter-spacing: 1px;
-    }
-    .FAQ__list {
-      padding: 1rem 5rem;
-    }
-    .FAQ__get__started__email {
-      width: 75%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      transform: translateX(15%);
-    }
-  }
-  
-  @media (min-width: 1024px) {
-    .navbar {
-      padding: 2% 5%;
-    }
-  
-    .navbar__brand {
-      width: 150px;
-    }
-  
-    .signin__button {
-      padding: 10px 20px;
-      font-size: 18px;
-    }
-    .dropdown__container {
-      padding: 10px 5px;
-    }
-  
-    .navbar__nav__items {
-      gap: 30px;
-    }
-  
-    .hero__card {
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  
-    .form__container {
-      width: 50%;
-    }
-    .email__form__container {
-      flex-direction: row;
-      align-items: center;
-      gap: 1px;
-    }
-    .primary__button {
-      height: 50px;
-    }
-  
-    .feature {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-    }
-  
-    .feature__details {
-      text-align: left;
-      padding: 0 6rem;
-    }
-  
-    .feature__title {
-      font-size: 50px;
-    }
-  
-    .feature__sub__title {
-      font-size: 25px;
-    }
-  
-    .feature__image__container {
-      max-width: 500px;
-    }
-  
-    .feature:nth-child(even) {
-      flex-direction: row-reverse;
-    }
-  
-    .feature__2__poster__container {
-      max-width: 20em;
-      height: 100px;
-      padding: 1rem;
-    }
-    .poster__container {
-      width: 20%;
-    }
-    .FAQ__list {
-      padding: 1rem 25rem;
-    }
-    .FAQ__get__started__email {
-      transform: translateX(16%);
-    }
-    footer {
-      padding: 2rem 20rem;
-      justify-content: flex-start;
-      text-align: left;
-      align-items: flex-start;
-    }
-  
-    .footer__row__2 {
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-wrap: nowrap;
-    }
-  
-    .footer__row__1,
-    .footer__row__3,
-    .footer__row__4 {
-      align-self: flex-start;
-    }
-  }
-  
-  @media (min-width: 1254px) {
-  } */
 `;
 
 export default SignUpPage;

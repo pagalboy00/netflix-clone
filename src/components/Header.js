@@ -11,6 +11,7 @@ const Header = (props) => {
       alt='no internet connection'
       />
      </div>
+     <i class="fa fa-globe" aria-hidden="true" id='glob'></i>
      <select
                 name="languages"
                 id="languagesSelected"
@@ -39,10 +40,12 @@ const HeaderContainer = styled.div`
     }
     .lan{
       padding: 0.5rem 1rem;
+      width: 10%;
+      padding-left: 40px;
       background-color: transparent;
       color: white;
       margin-left: 55rem;
-      -webkit-font-feature-settings:"smcp";
+      font-feature-settings:"smcp";
     }
     option{
       background-color: black;

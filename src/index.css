@@ -63,9 +63,13 @@ p{
   color: lightgray;
 }
 #languagesSelect{
-  margin-left: 147px;
+  width: 10%;
+  padding: 0.5rem 1rem;
+  padding-left: 33px;
   background-color: transparent;
   color: white;
+  margin-left: 147px;
+  font-feature-settings:"smcp";
 }
 option{
   background-color: black;
@@ -74,4 +78,33 @@ option{
 .footer__row__4{
   margin-left: 145px;
  text-decoration: none;
+}
+#gll{
+  position: absolute;
+ margin-left: 12%;
+  margin-top: 8.5px;
+  color: white;
+
+}
+#glob{
+  position: absolute;
+  margin-left: 81%;
+   margin-top: 2px;
+   color: white;
+}
+i{
+margin-right: 5%;
+
+}
+
+
+
+@media (min-width: 768px) {
+
+ 
+}
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1254px) {
 }
