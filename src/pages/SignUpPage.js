@@ -305,27 +305,25 @@ const SignUpPage = () => {
       </div>
       <div class="footer__row__2">
         <div class="column__1">
-          <p>FAQ</p>
-          <p>Investor Relations</p>
-          <p>Privacy</p>
-          <p>Speed Test</p>
+        <a role="link" data-uia="footer-link" className="p"  href="https://help.netflix.com/support/412">FAQ</a>
+        <a role="link" data-uia="footer-link" className="p" href="https://media.netflix.com/">Media Centre</a>
+        <a role="link" data-uia="footer-link" className="p" href="/watch">Ways to Watch</a>
+        <a role="link" data-uia="footer-link" className="p" href="#">Cookie Preferences</a>
+        <a role="link" data-uia="footer-link" className="p" href="https://fast.com">Speed Test</a>
         </div>
         <div class="column__2">
-          <p>Help Centre</p>
-          <p>Jobs</p>
-          <p>Cookie Preferences</p>
-          <p>Legal Notices</p>
+        <a role="link" data-uia="footer-link" className="B" href="https://help.netflix.com">Help Centre</a>
+        <a role="link" data-uia="footer-link" className="B"  href="http://ir.netflix.com/">Investor Relations</a>
+        <a role="link" data-uia="footer-link" className="B" href="https://help.netflix.com/legal/termsofuse">Terms of Use</a>
+        <a role="link" data-uia="footer-link" className="B" href="https://help.netflix.com/legal/corpinfo">Corporate Information</a>
+        <a role="link" data-uia="footer-link" className="B" href="https://help.netflix.com/legal/notices">Legal Notices</a>
         </div>
         <div class="column__3">
-          <p>Account</p>
-          <p>Ways to Watch</p>
-          <p>Corporate Information</p>
-          <p>Only on Netflix</p>
-        </div>
-        <div class="column__4">
-          <p>Media Centre</p>
-          <p>Terms of Use</p>
-          <p>Contact Us</p>
+        <a role="link" data-uia="footer-link" className="A" href="/login">Account</a>
+        <a role="link" data-uia="footer-link" className="A" href="https://jobs.netflix.com/jobs">Jobs</a>
+        <a role="link" data-uia="footer-link" className="A"  href="https://help.netflix.com/legal/privacy">Privacy</a>
+        <a role="link" data-uia="footer-link" className="A" href="https://help.netflix.com/contactus">Contact Us</a>
+        <a role="link" data-uia="footer-link" className="A" href="https://www.netflix.com/in/browse/genre/839338">Only on Netflix</a>
         </div>
       </div>
       <div class="footer__row__3">
@@ -675,6 +673,9 @@ const Container = styled.div`
     justify-content: space-around;
     gap: 20px;
     margin-left: 65px;
+    cursor: pointer;
+    --grid-layout-gap: 0.75rem;
+    --grid-item--min-width: 10.875rem;
     }
   
   .footer__row__1 > h4 {

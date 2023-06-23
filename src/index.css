@@ -96,7 +96,74 @@ i{
 margin-right: 5%;
 
 }
+.p{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10%;
+  color: lightgray;
+  cursor: pointer;
+  margin-left: -50px;
+}
+.A{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10%;
+  padding-bottom: 10px;
+  color:lightgray;
+  cursor: pointer;
+  margin-left: -99px;
+}
+.B{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
+  color:lightgray;
+ padding-bottom: 10px;
+  cursor: pointer;
+
+}
+
+/* .r{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: none;
+  border-radius: 0;
+  border: 0;
+  box-sizing: content-box;
+  color: inherit;
+  cursor: default;
+  display: inline;
+  font: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  font-style: normal;
+  list-style-type: none;
+  font-size: 0.875rem;
+  font-weight: 400;
+} */
 
 
 @media (min-width: 768px) {
