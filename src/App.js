@@ -4,6 +4,7 @@ import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import Player from "./pages/Player";
 import TvShow from "./pages/TvShow";
+import Watch  from "./pages/Watch";
 import Netflix from "./pages/Netflix";
 import MoviePage from "./pages/MoviePage";
 
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/player" element={<Player />} />
         <Route exact path="/tv" element={<TvShow />} />
         <Route exact path="/" element={<Netflix />} />
+        <Route exact path="/watch" element={<Watch/>} />
         <Route exact path="/movie" element={<MoviePage />} />
       </Routes>
 
