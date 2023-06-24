@@ -29,7 +29,7 @@ import { BsCheck } from "react-icons/bs";
               onClick={() => navigate("/player")}
             />
             <video
-              src="https://res.cloudinary.com/ehizeex-shop/video/upload/v1668377666/NetflixApp/Action_mlw9wx.mp4"
+              src="https://res.cloudinary.com/dxr0jgdza/video/upload/v1687630920/Fast_X_2023_Hindi_Official_Trailer__FilmyZilla.vin_zdmhmf.mp4"
               autoPlay
               loop
               controls
