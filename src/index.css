@@ -102,7 +102,7 @@ margin-right: 5%;
 .p{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: initial;
   margin-top: 10%;
   color: lightgray;
   cursor: pointer;
@@ -111,7 +111,7 @@ margin-right: 5%;
 .A{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: initial;
   margin-top: 10%;
   padding-bottom: 10px;
   color:lightgray;
@@ -121,7 +121,7 @@ margin-right: 5%;
 .B{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: initial;
 
   color:lightgray;
  padding-bottom: 10px;
