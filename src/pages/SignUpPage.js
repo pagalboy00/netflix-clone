@@ -568,7 +568,7 @@ const Container = styled.div`
        margin-left: 53%;
        margin-top: -7rem;
        position: absolute;
-       top: 47%;
+       top: 46%;
       .feature__imagefeature__3__image {
          width: 100%;
          }
